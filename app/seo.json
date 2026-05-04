@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Linear Clone",
+  "description": "A purpose-built product development system for planning and building products. Designed for the AI era.",
+  "url": "https://linear.yonasaddisu.me",
+  "applicationCategory": "ProductivitySoftware",
+  "operatingSystem": "Web Browser",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Yonas Addisu",
+    "url": "https://yonasaddisu.me"
+  },
+  "featureList": [
+    "Issue tracking",
+    "Project planning",
+    "AI-powered development",
+    "Team collaboration",
+    "Analytics & dashboards"
+  ]
+}

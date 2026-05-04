@@ -17,20 +17,33 @@ import ChangelogSection from "@/components/landing/changelogSection";
 
 
 export const metadata: Metadata = {
-  title: "Linear – The system for product development",
-  description: "Purpose-built for planning and building products with AI agents.",
+  title: "Linear Clone — The product development system for teams and agents",
+  description:
+    "A pixel-perfect clone of Linear.app by Yonas Addisu. Purpose-built for planning and building products. Designed for the AI era.",
+  alternates: {
+    canonical: "https://linear.yonasaddisu.me",
+  },
   openGraph: {
-    title: "Linear – The system for product development",
-    description: "Purpose-built for planning and building products with AI agents.",
-    images: [{ url: "https://linear.app/static/og/homepage.jpg" }],
+    title: "Linear Clone — The product development system for teams and agents",
+    description:
+      "A pixel-perfect clone of Linear.app by Yonas Addisu. Purpose-built for planning and building products. Designed for the AI era.",
+    url: "https://linear.yonasaddisu.me",
+    images: [
+      {
+        url: "/images/og-screenshot.png",
+        width: 1920,
+        height: 1080,
+        alt: "Linear Clone — app screenshot",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@linear",
-    creator: "@linear",
-    title: "Linear – The system for product development",
-    description: "Purpose-built for planning and building products with AI agents.",
-    images: ["https://linear.app/static/og/homepage.jpg"],
+    creator: "@yonasaddisu",
+    title: "Linear Clone — The product development system for teams and agents",
+    description:
+      "A pixel-perfect clone of Linear.app by Yonas Addisu. Purpose-built for planning and building products. Designed for the AI era.",
+    images: ["/images/og-screenshot.png"],
   },
 };
 
