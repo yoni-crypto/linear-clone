@@ -15,35 +15,76 @@ import MonitorSection from "@/components/landing/MonitorScreen";
 import ChangelogSection from "@/components/landing/changelogSection";
 
 
-
+·
 export const metadata: Metadata = {
-  title: "Linear Clone — The product development system for teams and agents",
-  description:
-    "A pixel-perfect clone of Linear.app by Yonas Addisu. Purpose-built for planning and building products. Designed for the AI era.",
+  title: "Linear Clone: Ultimate Product Development Platform for Teams",
+  description: "Discover Linear Clone - a pixel-perfect implementation of Linear.app that combines intuitive issue tracking, AI-powered workflows, and seamless team collaboration. Start building better products today.",
   alternates: {
     canonical: "https://linear.yonasaddisu.me",
   },
   openGraph: {
-    title: "Linear Clone — The product development system for teams and agents",
-    description:
-      "A pixel-perfect clone of Linear.app by Yonas Addisu. Purpose-built for planning and building products. Designed for the AI era.",
+    title: "Linear Clone: Ultimate Product Development Platform for Teams",
+    description: "Experience the future of product development with Linear Clone - featuring AI-powered workflows, real-time collaboration, and intuitive issue tracking. Built for teams who ship.",
     url: "https://linear.yonasaddisu.me",
+    siteName: "Linear Clone",
     images: [
       {
         url: "/images/og-screenshot.png",
         width: 1920,
         height: 1080,
-        alt: "Linear Clone — app screenshot",
+        alt: "Linear Clone app screenshot showing modern interface",
       },
+      {
+        url: "/images/og-features.png",
+        width: 1200,
+        height: 630,
+        alt: "Linear Clone features overview",
+      }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    creator: "@yonasaddisu",
-    title: "Linear Clone — The product development system for teams and agents",
-    description:
-      "A pixel-perfect clone of Linear.app by Yonas Addisu. Purpose-built for planning and building products. Designed for the AI era.",
+    title: "Linear Clone: Ultimate Product Development Platform for Teams",
+    description: "Experience the future of product development with Linear Clone - featuring AI-powered workflows, real-time collaboration, and intuitive issue tracking.",
     images: ["/images/og-screenshot.png"],
+    creator: "@elyonox",
+    site: "@elyonox",
+  },
+  keywords: [
+    "linear",
+    "linear clone",
+    "linear app",
+    "linear.app clone",
+    "project management software",
+    "issue tracking tool",
+    "team collaboration platform",
+    "product development software",
+    "agile project management",
+    "workflow management",
+    "saas product",
+    "web application",
+    "developer tools",
+    "engineering management",
+    "product management",
+    "issue tracker",
+    "task management",
+    "team productivity",
+    "software development",
+    "ai powered workflows",
+    "yonas addisu"
+  ],
+  authors: [{ name: "Yonas Addisu", url: "https://linear.yonasaddisu.me" }],
+  creator: "Yonas Addisu",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
